@@ -1,18 +1,15 @@
-import Ahorcado
-import Adivinanza
+import ahorcado
+import adivinanza
 
-
-
-print('*********************************')
+print('================================')
 print('Elija su Juego')
-print('*********************************')
+print('================================')
 
+print("(1) Horca (2) Adivinanza")
 
-print('(1) Ahorcado (2) Adivinanza')
-
-juego = int(inpu("¿Cual juego?"))
+juego = int(input("¿Cuál juego? "))
 
 if (juego == 1):
-    print("Jugando Ahorcado")
+    print("Jugando ahorcado")
 elif (juego == 2):
-    print("Jugando Adivinanza")
+    print("Jugando adivinanza")
